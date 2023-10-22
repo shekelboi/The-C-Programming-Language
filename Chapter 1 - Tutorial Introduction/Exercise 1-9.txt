@@ -1,0 +1,2 @@
+Test cases could be written by specifying the input and the expected output. There are many resources online to find such cases.
+This program doesn't account for individual symbols such as the hyphen, thus, such a character written separately would be counted as a word.
