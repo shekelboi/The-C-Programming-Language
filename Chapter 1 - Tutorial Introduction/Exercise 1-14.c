@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAX_LENGTH 50
+#define MAX_LENGTH 500
 
 // Print the longest line (as much of it as possible if it exceeds MAX_LENGTH) and its length
 
@@ -13,8 +13,7 @@ main() {
 
         if (currentLength > maxLength) {
             maxLength = currentLength;
-            for (int i = 0; i < maxLength; i++)
-            {
+            for (int i = 0; i < maxLength; i++) {
                 longestLine[i] = currentLine[i];
             }
         }
@@ -37,13 +36,11 @@ get_line(char currentLine[]) {
     int counter = 0;
     int c;
 
-    while ((c = getchar()) != EOF && c != '\n')
-    {
+    while ((c = getchar()) != EOF && c != '\n') {
         if (counter < MAX_LENGTH - 1) {
-            currentLine[counter++] = c;
-        } else {
-            counter++;
+            currentLine[counter] = c;
         }
+        counter++;
     }
 
     currentLine[counter < MAX_LENGTH ? counter: MAX_LENGTH - 1] = '\0';
