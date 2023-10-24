@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define MAX_LENGTH 5000
 
+// Prints lines over the length of 80
+
 main() {
     char currentLine[MAX_LENGTH];
     int length;
