@@ -7,7 +7,8 @@ bool isBlank(int character) {
 
 // Count the length of the words
 
-main () {
+main ()
+{
     int character;
     bool inWord = false;
     int wordLength = 0;
