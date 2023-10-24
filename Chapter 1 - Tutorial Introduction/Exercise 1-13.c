@@ -9,8 +9,7 @@ int lower(int character) {
     return character;
 }
 
-main()
-{
+main() {
     int character;
 
     while ((character = getchar()) != EOF)

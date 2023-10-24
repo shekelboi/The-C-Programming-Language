@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-main()
-{
+main() {
     int character;
     bool previousWasBlank = false;
 

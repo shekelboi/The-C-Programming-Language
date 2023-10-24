@@ -2,8 +2,7 @@
 
 // Celsius to Fahrenheit converter
 
-main()
-{
+main() {
     int lower, upper, step;
     float fahr, celsius;
 

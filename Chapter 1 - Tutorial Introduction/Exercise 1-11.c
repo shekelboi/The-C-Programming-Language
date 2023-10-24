@@ -12,8 +12,7 @@ bool isLetter(int character) {
     return ('A' <= character && character <= 'Z') || ('a' <= character && character <= 'z');
 }
 
-main()
-{
+main() {
     int character;
     int wordCount = 0;
     bool inWord = false;

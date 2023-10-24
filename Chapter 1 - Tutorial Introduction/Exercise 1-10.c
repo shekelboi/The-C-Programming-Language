@@ -3,8 +3,7 @@
 
 // Count words per line
 
-main()
-{
+main() {
     int character;
     bool inWord = false;
     int numberOfWords = 0;

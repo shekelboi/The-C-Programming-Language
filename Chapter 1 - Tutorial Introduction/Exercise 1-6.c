@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-main()
-{
+main() {
     int character;
     int numberOfSpecificCharacters = 0;
     while ((character = getchar()) != EOF) {
