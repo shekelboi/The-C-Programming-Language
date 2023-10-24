@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define TAB_SIZE 2
 
+// Replaces tabs by a given number of spaces
+
 main() {
     char c;
 
